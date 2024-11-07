@@ -1,0 +1,84 @@
+/* StudentExperience.css */
+
+.student-experience {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .student-experience h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .experience-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .experience-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .experience-card h3 {
+    font-size: 1.3rem;
+    margin-top: 15px;
+  }
+  
+  .experience-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Popup Styling */
+  .video-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-content {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
